@@ -1,8 +1,6 @@
 import 'remixicon/fonts/remixicon.css';
 
 
-
-
 const Header = () => {
     // simple function to toggle the mobile nemu
 
@@ -17,7 +15,6 @@ const Header = () => {
 
         }
 
-
     };
 
     return (
@@ -25,19 +22,29 @@ const Header = () => {
       py-4 px-4  lg:px-20 stick  ">
             <div className="container backdrop-blur-sm  mx-auto ">
                 <nav className=" flex items-center justify-between">
-                    <div className="text-3xl md:text-4xl lg:text-5xl
-                font-light m-0 ">MCODE</div>
+                    <div data-aos="fade-in"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000" className="text-3xl md:text-4xl lg:text-5xl
+                font-light m-0 ">EORACCO</div>
                     <ul className="gap-12 hidden md:flex">
-                        <li><a className="text-base tracking-wider 
+                        <li><a data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1000" className="text-base tracking-wider 
                         transition-colors hover:text-gray-300
                         z-50" href="#">COMPANY</a></li>
-                        <li><a className="text-base tracking-wider 
+                        <li><a data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500" className="text-base tracking-wider 
                         transition-colors hover:text-gray-300
                         z-50" href="#">FEATURES</a></li>
-                        <li><a className="text-base tracking-wider 
+                        <li><a data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="2000" className="text-base tracking-wider 
                         transition-colors hover:text-gray-300
                         z-50" href="#">RESOURCES</a></li>
-                        <li><a className="text-base tracking-wider 
+                        <li><a data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="2500" className="text-base tracking-wider 
                         transition-colors hover:text-gray-300
                         z-50" href="#">DOCS</a></li>
                     </ul>
@@ -73,6 +80,9 @@ const Header = () => {
 
                 </nav>
             </div>
+
+            {/* 3d robot */}
+
 
         </header>
     )
